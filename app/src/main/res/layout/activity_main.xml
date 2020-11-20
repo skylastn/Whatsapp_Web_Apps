@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="16dp"-->
+<!--        android:background="#B7F174"-->
+<!--        android:orientation="horizontal">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/backartikel"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_gravity="left"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:src="@drawable/ic_back2"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textSize="35dp"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#3F51B5"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:text="Whatsapp Web"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/webView"
+
+        />
+
+</LinearLayout>
